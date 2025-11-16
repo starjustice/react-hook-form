@@ -1,0 +1,9 @@
+{
+  "name": "Kubernetes Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "features": {
+    "docker-in-docker": {}
+  },
+  "postCreateCommand": "docker version",
+  "remoteUser", "vscode"
+}
